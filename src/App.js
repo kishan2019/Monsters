@@ -31,10 +31,8 @@ class App extends Component {
     
     return (
       <div className="App">
-        <SearchBox 
-          placeholder="Search Monster"
-          eventHandler={this.eventHandler} />
-        
+        <h1>Where is the Monster</h1>
+        <SearchBox placeholder="Search Monster" eventHandler={this.eventHandler} />
         <CardList monsters={filteredMonster} />
       </div>
     )

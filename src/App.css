@@ -1,4 +1,11 @@
 .App {
   text-align: center;
 }
-
+h1{
+  font-family: Kelly Slab;
+  font-size: 72px;
+  color: #0ccac4;
+}
+body{
+  background-color: lightslategray;
+}
